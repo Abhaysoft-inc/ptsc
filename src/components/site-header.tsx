@@ -6,9 +6,9 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { FiArrowRight, FiMenu, FiX } from "react-icons/fi";
 
-import { NAV } from "./landing-data";
+import { NAV } from "@/components/landing/landing-data";
 
-export function LandingHeader() {
+export function SiteHeader() {
   const [open, setOpen] = useState(false);
 
   return (
@@ -54,10 +54,10 @@ export function LandingHeader() {
       </nav>
 
       {open && (
-          <div className="border-t border-white/5 px-5 py-4 md:hidden">
+        <div className="border-t border-white/5 px-5 py-4 md:hidden">
           <div className="flex flex-col gap-1">
             {NAV.map((item) => (
-                <Link
+              <Link
                 key={item.href}
                 href={item.href}
                 onClick={() => setOpen(false)}
@@ -74,7 +74,6 @@ export function LandingHeader() {
               Join the club
             </a>
           </div>
-
         </div>
       )}
     </header>

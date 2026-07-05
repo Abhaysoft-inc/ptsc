@@ -35,10 +35,14 @@ export type EventCard = {
 };
 
 export const NAV: NavItem[] = [
-  { label: "About", href: "#about" },
-  { label: "Domains", href: "#domains" },
-  { label: "Events", href: "#events" },
-  { label: "Community", href: "#community" },
+  { label: "Events", href: "/events" },
+  { label: "OSS", href: "/oss" },
+  { label: "CP", href: "/cp" },
+  { label: "Members", href: "/members" },
+  { label: "Our Peoples", href: "/people" },
+  { label: "Achievements", href: "/achievements" },
+  { label: "Blogs", href: "/blogs" },
+  { label: "Support Us", href: "/support-us" },
 ];
 
 export const STATS = [

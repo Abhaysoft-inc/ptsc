@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { FiGithub, FiGlobe } from "react-icons/fi";
 
-export function LandingFooter() {
+export function SiteFooter() {
   return (
-    <footer className="mt-auto w-full border-t border-white/5 bg-background">
+    <footer className="w-full border-t border-white/5 bg-background">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-6 px-5 py-10 md:flex-row">
         <Link href="/" className="flex items-center gap-2.5 transition-opacity hover:opacity-90">
           <Image src="/logo.png" alt="PTSC logo" width={32} height={32} className="size-8 object-contain" />
