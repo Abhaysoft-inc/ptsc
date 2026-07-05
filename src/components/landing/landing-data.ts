@@ -38,10 +38,10 @@ export const NAV: NavItem[] = [
   { label: "Events", href: "/events" },
   { label: "OSS", href: "/oss" },
   { label: "CP", href: "/cp" },
-  { label: "Members", href: "/members" },
+  { label: "Team", href: "/members" },
   { label: "Our Peoples", href: "/people" },
   { label: "Achievements", href: "/achievements" },
-  { label: "Blogs", href: "/blogs" },
+  // { label: "Blogs", href: "/blogs" },
   { label: "Support Us", href: "/support-us" },
 ];
 
